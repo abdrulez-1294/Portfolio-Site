@@ -6,13 +6,14 @@
     <title>Technical Projects | Abid Abdulla</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <nav>
         <div class="logo"><a href="index.html" style="color:white; text-decoration:none;">ABID<span class="highlight">.DEV</span></a></div>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#devops">DevOps Stack</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
@@ -20,25 +21,50 @@
         <h2 class="section-title">Cloud & DevOps Engineering</h2>
         
         <div class="project-detail-card">
-            <span class="project-tag">AgriTech + Cloud</span>
+            <div class="card-header">
+                <span class="project-tag">AgriTech + GCP</span>
+                <div class="tech-icons">
+                    <i class="fab fa-google-drive" title="Google Cloud"></i>
+                    <i class="fab fa-docker" title="Docker"></i>
+                    <i class="fab fa-python" title="Python"></i>
+                </div>
+            </div>
             <h3>Project: Soil Sense</h3>
-            <p><strong>The DevOps Side:</strong> Containerized the application using <strong>Docker</strong> for consistent environment deployment. Managed satellite data processing pipelines.</p>
+            <p class="devops-focus">
+                <i class="fas fa-cogs"></i> <strong>DevOps Strategy:</strong> 
+                Implemented a <strong>Container-First</strong> approach using Docker to ensure seamless deployment across cloud environments. Managed high-throughput satellite data pipelines.
+            </p>
             <ul>
-                <li>Integrated Hyperspectral Imaging API.</li>
-                <li>Cloud Storage for high-res satellite imagery.</li>
-                <li>Achieved 20% water efficiency improvement.</li>
+                <li>Integrated Hyperspectral Imaging API for precision analysis.</li>
+                <li>Utilized <strong>Google Cloud Storage</strong> for secure, scalable satellite imagery hosting.</li>
+                <li>Optimized irrigation patterns, achieving a <strong>20% water efficiency increase</strong>.</li>
             </ul>
         </div>
 
         <div class="project-detail-card">
-            <span class="project-tag">Full-Stack + Automation</span>
+            <div class="card-header">
+                <span class="project-tag">Full-Stack + CI/CD</span>
+                <div class="tech-icons">
+                    <i class="fab fa-git-alt" title="Git"></i>
+                    <i class="fas fa-database" title="DBMS"></i>
+                    <i class="fab fa-android" title="App Dev"></i>
+                </div>
+            </div>
             <h3>Project: Lost and Found</h3>
-            <p><strong>The DevOps Side:</strong> Automated the build process and managed version control for a multi-user environment.</p>
+            <p class="devops-focus">
+                <i class="fas fa-code-branch"></i> <strong>Automation Strategy:</strong> 
+                Automated version control workflows and build processes for a multi-user environment.
+            </p>
             <ul>
-                <li>Database Management (DBMS) for real-time tracking.</li>
-                <li>Implemented security protocols for user data protection.</li>
+                <li>Designed real-time tracking systems using robust <strong>DBMS</strong> architectures.</li>
+                <li>Implemented <strong>Network Security</strong> protocols to protect user data integrity.</li>
+                <li>Managed collaborative team development via structured Git branching.</li>
             </ul>
         </div>
     </section>
+
+    <footer>
+        <p>Built with <i class="fas fa-heart" style="color: #EA4335;"></i> & DevOps Principles by Abid Abdulla</p>
+    </footer>
 </body>
 </html>

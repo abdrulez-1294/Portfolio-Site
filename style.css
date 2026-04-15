@@ -164,3 +164,75 @@ footer { text-align: center; padding: 3rem; color: var(--text-dim); font-size: 0
 .project-detail-card ul li {
     margin-bottom: 8px;
 }
+
+.contact-card {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--bg-card);
+    padding: 3rem;
+    border-radius: 20px;
+    border: 1px solid rgba(56, 189, 248, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    background: #0f172a;
+    border: 1px solid #334155;
+    color: white;
+    border-radius: 8px;
+}
+
+/* Projects Page Specifics */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.tech-icons {
+    font-size: 1.5rem;
+    color: var(--primary);
+}
+
+.tech-icons i {
+    margin-left: 10px;
+}
+
+.devops-focus {
+    background: rgba(56, 189, 248, 0.05);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    border-left: 3px solid var(--primary);
+    font-size: 0.95rem;
+}
+
+.devops-focus i {
+    margin-right: 8px;
+    color: var(--primary);
+}
+
+.project-detail-card ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+.project-detail-card ul li::before {
+    content: "▹";
+    color: var(--primary);
+    margin-right: 10px;
+    font-weight: bold;
+}
