@@ -140,3 +140,27 @@ footer { text-align: center; padding: 3rem; color: var(--text-dim); font-size: 0
     .hero h1 { font-size: 3rem; }
     nav ul { display: none; }
 }
+
+.project-detail-card {
+    background: #1e293b;
+    padding: 3rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+.project-detail-card h3 {
+    color: var(--primary);
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+.project-detail-card ul {
+    margin-top: 15px;
+    padding-left: 20px;
+    color: var(--text-dim);
+}
+
+.project-detail-card ul li {
+    margin-bottom: 8px;
+}
