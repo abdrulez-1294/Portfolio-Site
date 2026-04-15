@@ -236,3 +236,46 @@ footer { text-align: center; padding: 3rem; color: var(--text-dim); font-size: 0
     margin-right: 10px;
     font-weight: bold;
 }
+.devops-footer {
+    background: #020617;
+    padding: 4rem 0 2rem;
+    border-top: 1px solid rgba(56, 189, 248, 0.1);
+    color: var(--text-dim);
+    font-size: 0.85rem;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.status-box p {
+    margin: 5px 0;
+}
+
+.status-box strong {
+    color: var(--primary);
+}
+
+.social-links a {
+    font-size: 1.8rem;
+    color: var(--text-dim);
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: var(--primary);
+    transform: translateY(-3px);
+}
+
+.copyright {
+    text-align: center;
+    opacity: 0.5;
+    font-size: 0.75rem;
+    margin-top: 2rem;
+}
